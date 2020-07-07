@@ -11,6 +11,7 @@ if (eta < 18){
     sconto = 0;
 }
 
-var prezzoFinale = parseInt(bigliettoIntero - sconto);
+var prezzoFinale = bigliettoIntero - sconto;
+prezzoFinale = prezzoFinale.toFixed(2);
 
 document.getElementById('effettivo').innerHTML = prezzoFinale + ' ' + 'euro';
