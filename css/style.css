@@ -1,4 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cecece;
+}
+
+.biglietto {
+    background-color: powderblue;
+    padding: 20px;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.biglietto:hover {
+    transform: scale(1.2);
+}
+
 h3,
 #effettivo {
     text-align: center;
+}
+
+#effettivo {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
 }
